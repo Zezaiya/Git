@@ -18,12 +18,14 @@ Git常用命令
 git config --global user.name    设置用户签名（使用一次即可）
 git config --global user.email   设置用户邮箱（使用一次即可）
 
-git init+项目路径  初始化本地库（让git获取项目的管理权）
-git status 查看当前项目状态
-git add+目录名  将该目录文件添加到暂存区
-git rm --cached+目录文件名  将该目录文件移除暂存区，但本地工作区仍然存在
+git init+项目路径                  初始化本地库（让git获取项目的管理权）
+git status                        查看当前项目状态
+git add+目录名                     将该目录文件添加到暂存区
+git rm --cached+目录文件名          将该目录文件移除暂存区，但本地工作区仍然存在
 git commit -m "版本名" 目录文件名    将该目录文件提交到本地库
-git log 查看版本信息 
+git relog                         查看版本基本信息    git log 查看版本详细信息   （其中的16进制数表示的就是版本号，即该版本在本地库的地址-指针）
+git reset --hard+版本号            回溯到某一版本
+
 这是第一次修改
 
 
