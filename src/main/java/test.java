@@ -5,6 +5,6 @@ public class test {
         System.out.println("i am strong");
         System.out.println("you are strong");
         System.out.println("666");
-
+ System.out.println("777");
     }
 }
